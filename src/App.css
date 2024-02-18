@@ -1,5 +1,12 @@
-.App {
+/*.App {
   text-align: center;
+  width: 1440px;
+  height: 2900px;
+  margin: 0 auto; 
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); 
+  grid-gap: 20px; 
+  padding: 20px;
 }
 
 .App-logo {
@@ -13,19 +20,111 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
+} */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* NavigationBar component */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display:inline-block;
+  font-size:23px;
+  font-weight:bold;
+}
+
+.navbar ul li a {
+  color: #fff;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  margin-right: 60px;
+}
+
+
+/* HeroSection component */
+.hero-section {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.hero-section h2 {
+  color: #333;
+}
+
+/* HighlightsSection component */
+.highlights-section {
+  background-color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.highlights-section h2 {
+  color: #333;
+}
+
+/* TestimonialsSection component */
+.testimonials-section {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.testimonials-section h2 {
+  color: #333;
+}
+
+/* AboutSection component */
+.about-section {
+  background-color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about-section h2 {
+  color: #333;
+}
+
+/* Footer component */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  display: block;
+  margin-right: 20px;
 }
 
 @keyframes App-logo-spin {
